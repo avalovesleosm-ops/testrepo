@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+body {
+    background: #090d18;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background: #111a2e60;
+    box-shadow: 0 0 25px #d3273e55;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th {
+    background: linear-gradient(90deg, #cf127a, #0d30f5);
+    padding: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #263650;
+}
+
+tr {
+    transition: 0.3s;
+}
+
+tbody tr:hover {
+    background: #18334b;
+    color: #00eaff;
+    transform: scale(1.02);
+}
+
+.status {
+    color: #0fc07c5e;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            
+           
+            <th>Status</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>001</td>
+            <td>Alex</td>
+            <td>Cyber Design</td>
+            <td class="status">Active</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>Sarah</td>
+            <td>Web Development</td>
+            <td class="status">Active</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>James</td>
+            <td>AI Research</td>
+            <td class="status">Active</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
